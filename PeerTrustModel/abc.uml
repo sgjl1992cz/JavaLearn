@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Nics4P2vEeaSu7cCpHcWKQ">
+  <name xsi:nil="true"/>
+  <elementImport xmi:id="_Nt5u8P2vEeaSu7cCpHcWKQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_NyeF4P2vEeaSu7cCpHcWKQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_NyiXUP2vEeaSu7cCpHcWKQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_OA0D4P2vEeaSu7cCpHcWKQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ni4KsP2vEeaSu7cCpHcWKQ" name="RecommendRecord">
+    <ownedAttribute xmi:id="_Nt69EP2vEeaSu7cCpHcWKQ" name="serverPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_NwyD0P2vEeaSu7cCpHcWKQ" name="recommendInfos" visibility="private" type="_Nww1sP2vEeaSu7cCpHcWKQ"/>
+    <ownedOperation xmi:id="_NxvGEP2vEeaSu7cCpHcWKQ" name="getServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_NxvGEf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_NxxiUP2vEeaSu7cCpHcWKQ" name="setServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_NxxiUf2vEeaSu7cCpHcWKQ" name="serverPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Nx0loP2vEeaSu7cCpHcWKQ" name="getRecommendInfos" visibility="public">
+      <ownedParameter xmi:id="_Nx0lof2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_NybCkP2vEeaSu7cCpHcWKQ" name="setRecommendInfos" visibility="public">
+      <ownedParameter xmi:id="_NybCkf2vEeaSu7cCpHcWKQ" name="recommendInfos" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_NyeF4f2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_NyeF4v2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjDJ0P2vEeaSu7cCpHcWKQ" name="RecommendInfo">
+    <ownedAttribute xmi:id="_NygiIP2vEeaSu7cCpHcWKQ" name="recommandPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_NykzkP2vEeaSu7cCpHcWKQ" name="recommandTrustValue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Nyn24P2vEeaSu7cCpHcWKQ" name="cycleNum" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_NyqTIP2vEeaSu7cCpHcWKQ" name="getRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_NyqTIf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N0I50P2vEeaSu7cCpHcWKQ" name="setRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N0I50f2vEeaSu7cCpHcWKQ" name="recommandPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N24EwP2vEeaSu7cCpHcWKQ" name="getRecommandTrustValue" visibility="public">
+      <ownedParameter xmi:id="_N24Ewf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N2558P2vEeaSu7cCpHcWKQ" name="setRecommandTrustValue" visibility="public">
+      <ownedParameter xmi:id="_N2558f2vEeaSu7cCpHcWKQ" name="recommandTrustValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N27vIP2vEeaSu7cCpHcWKQ" name="getCycleNum" visibility="public">
+      <ownedParameter xmi:id="_N27vIf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N2-ycP2vEeaSu7cCpHcWKQ" name="setCycleNum" visibility="public">
+      <ownedParameter xmi:id="_N2-ycf2vEeaSu7cCpHcWKQ" name="cycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N3AAkP2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_N3AAkf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjEX8P2vEeaSu7cCpHcWKQ" name="TransactionRecord">
+    <ownedAttribute xmi:id="_N3GuQP2vEeaSu7cCpHcWKQ" name="serverPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N3pg0P2vEeaSu7cCpHcWKQ" name="recommandPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N3r9EP2vEeaSu7cCpHcWKQ" name="transactionTrustValue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N3uZUP2vEeaSu7cCpHcWKQ" name="peerTrustValueReliability" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_N3wOgP2vEeaSu7cCpHcWKQ" name="getServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N3wOgf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N3yDsP2vEeaSu7cCpHcWKQ" name="setServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N3yDsf2vEeaSu7cCpHcWKQ" name="serverPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N3zR0P2vEeaSu7cCpHcWKQ" name="getRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N3zR0f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N31HAP2vEeaSu7cCpHcWKQ" name="setRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N31HAf2vEeaSu7cCpHcWKQ" name="recommandPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N32VIP2vEeaSu7cCpHcWKQ" name="getTransactionTrustValue" visibility="public">
+      <ownedParameter xmi:id="_N32VIf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N34KUP2vEeaSu7cCpHcWKQ" name="setTransactionTrustValue" visibility="public">
+      <ownedParameter xmi:id="_N34KUf2vEeaSu7cCpHcWKQ" name="transactionTrustValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N35YcP2vEeaSu7cCpHcWKQ" name="getPeerTrustValueReliability" visibility="public">
+      <ownedParameter xmi:id="_N35Ycf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N37NoP2vEeaSu7cCpHcWKQ" name="setPeerTrustValueReliability" visibility="public">
+      <ownedParameter xmi:id="_N37Nof2vEeaSu7cCpHcWKQ" name="peerTrustValueReliability">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N39C0P2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_N39C0f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjGNIP2vEeaSu7cCpHcWKQ" name="PeerManager">
+    <ownedAttribute xmi:id="_N4AGIP2vEeaSu7cCpHcWKQ" name="systemArrayList" visibility="package" isStatic="true" type="_N3-4AP2vEeaSu7cCpHcWKQ"/>
+    <ownedOperation xmi:id="_N4AtMP2vEeaSu7cCpHcWKQ" name="getPeer" visibility="package" isStatic="true">
+      <ownedParameter xmi:id="_N4AtMf2vEeaSu7cCpHcWKQ" name="peerno">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N4AtMv2vEeaSu7cCpHcWKQ" name="return" type="_NjLFoP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjHbQP2vEeaSu7cCpHcWKQ" name="PeerTrustReliability">
+    <ownedAttribute xmi:id="_N4CiYP2vEeaSu7cCpHcWKQ" name="recommandPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N4Gz0P2vEeaSu7cCpHcWKQ" name="peerRecommandReliability" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N4JQEP2vEeaSu7cCpHcWKQ" name="recommandSuccess" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N4WEYP2vEeaSu7cCpHcWKQ" name="recomandFailure" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_N4XSgP2vEeaSu7cCpHcWKQ" name="getRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N4XSgf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N4ZHsP2vEeaSu7cCpHcWKQ" name="setRecommandPeerNo" visibility="public">
+      <ownedParameter xmi:id="_N4ZHsf2vEeaSu7cCpHcWKQ" name="recommandPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N4a84P2vEeaSu7cCpHcWKQ" name="getPeerRecommandReliability" visibility="public">
+      <ownedParameter xmi:id="_N4a84f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N4fOUP2vEeaSu7cCpHcWKQ" name="setPeerRecommandReliability" visibility="public">
+      <ownedParameter xmi:id="_N4fOUf2vEeaSu7cCpHcWKQ" name="peerRecommandReliability">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N4hDgP2vEeaSu7cCpHcWKQ" name="getRecommandSuccess" visibility="public">
+      <ownedParameter xmi:id="_N4hDgf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N4jfwP2vEeaSu7cCpHcWKQ" name="setRecommandSuccess" visibility="public">
+      <ownedParameter xmi:id="_N4jfwf2vEeaSu7cCpHcWKQ" name="recommandSuccess">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N6QI4P2vEeaSu7cCpHcWKQ" name="getRecomandFailure" visibility="public">
+      <ownedParameter xmi:id="_N6Qv8P2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N6SlIP2vEeaSu7cCpHcWKQ" name="setRecomandFailure" visibility="public">
+      <ownedParameter xmi:id="_N6SlIf2vEeaSu7cCpHcWKQ" name="recomandFailure">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N6UaUP2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_N6UaUf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjJ3gP2vEeaSu7cCpHcWKQ" name="faker">
+    <ownedOperation xmi:id="_N6XdoP2vEeaSu7cCpHcWKQ" name="main" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_N6Xdof2vEeaSu7cCpHcWKQ" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N6Xdov2vEeaSu7cCpHcWKQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N6Xdo_2vEeaSu7cCpHcWKQ"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjLFoP2vEeaSu7cCpHcWKQ" name="Peer">
+    <ownedAttribute xmi:id="_N6k5AP2vEeaSu7cCpHcWKQ" name="peerNo" visibility="private">
+      <ownedComment xmi:id="_N6yUYP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x8282;&#x70b9;&#x7f51;&#x7edc;&#x5c5e;&#x6027;
+ */
+</body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N69TgP2vEeaSu7cCpHcWKQ" name="peerType" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N7lloP2vEeaSu7cCpHcWKQ" name="trueValue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N8asEP2vEeaSu7cCpHcWKQ" name="peerNeighbours" visibility="private" type="_N8PF4P2vEeaSu7cCpHcWKQ"/>
+    <ownedAttribute xmi:id="_N8xRYP2vEeaSu7cCpHcWKQ" name="peerLocalHistoryRecords" visibility="private" type="_N8ngYP2vEeaSu7cCpHcWKQ">
+      <ownedComment xmi:id="_N85NMP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x8282;&#x70b9;&#x672c;&#x5730;&#x5b58;&#x50a8;
+ */
+</body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_N9BwEP2vEeaSu7cCpHcWKQ" name="peerRecommendRecords" visibility="private" type="_N850QP2vEeaSu7cCpHcWKQ"/>
+    <ownedAttribute xmi:id="_N-GHEP2vEeaSu7cCpHcWKQ" name="peerTrustReliabilities" visibility="private" type="_N97H8P2vEeaSu7cCpHcWKQ"/>
+    <ownedAttribute xmi:id="_N-Ya8P2vEeaSu7cCpHcWKQ" name="listofTransactionRecordList" visibility="private" type="_N-QfIP2vEeaSu7cCpHcWKQ"/>
+    <ownedOperation xmi:id="_N-hk4P2vEeaSu7cCpHcWKQ" name="lengthofHR" visibility="public">
+      <ownedComment xmi:id="_N-o5oP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x672c;&#x5730;&#x7f13;&#x5b58;
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_N-hk4f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N-pgsP2vEeaSu7cCpHcWKQ" name="lengthofRR" visibility="public">
+      <ownedParameter xmi:id="_N-pgsf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N-xcgP2vEeaSu7cCpHcWKQ" name="lengthofTR" visibility="public">
+      <ownedParameter xmi:id="_N-xcgf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N-6mcP2vEeaSu7cCpHcWKQ" name="calDirectTrustValue" visibility="public">
+      <ownedComment xmi:id="_N_DwYP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x76f4;&#x63a5;&#x4fe1;&#x4efb; 
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_N-6mcf2vEeaSu7cCpHcWKQ" name="targerPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N-6mcv2vEeaSu7cCpHcWKQ" name="cur_cycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N-6mc_2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N_EXcP2vEeaSu7cCpHcWKQ" name="calDirectTrustReliability" visibility="public">
+      <ownedParameter xmi:id="_N_EXcf2vEeaSu7cCpHcWKQ" name="directTrustValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_EXcv2vEeaSu7cCpHcWKQ" name="targetPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_EXc_2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N_ToAP2vEeaSu7cCpHcWKQ" name="peerRecommand" visibility="public">
+      <ownedComment xmi:id="_N_dZAP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x63a8;&#x8350;&#x4fe1;&#x4efb; 
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_N_ToAf2vEeaSu7cCpHcWKQ" name="targetPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_ToAv2vEeaSu7cCpHcWKQ" name="curCycle">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_ToA_2vEeaSu7cCpHcWKQ" name="return" type="_NjEX8P2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N_eAEP2vEeaSu7cCpHcWKQ" name="getRecommandList" visibility="public">
+      <ownedParameter xmi:id="_N_eAEf2vEeaSu7cCpHcWKQ" name="recommandNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_eAEv2vEeaSu7cCpHcWKQ" name="MaxPeerNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_eAE_2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N_pmQP2vEeaSu7cCpHcWKQ" name="getTransactionRecords" visibility="public">
+      <ownedParameter xmi:id="_N_pmQf2vEeaSu7cCpHcWKQ" name="recommandPeerList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_N_pmQv2vEeaSu7cCpHcWKQ" name="targetPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_pmQ_2vEeaSu7cCpHcWKQ" name="curcycle">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_N_pmRP2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_N_4PwP2vEeaSu7cCpHcWKQ" name="calRecommandTrustValue" visibility="public">
+      <ownedParameter xmi:id="_N_4Pwf2vEeaSu7cCpHcWKQ" name="transactionRecords" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_N_4Pwv2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OACAwP2vEeaSu7cCpHcWKQ" name="calRecommandTrustReliability" visibility="public">
+      <ownedParameter xmi:id="_OACAwf2vEeaSu7cCpHcWKQ" name="recommandTrustValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OACAwv2vEeaSu7cCpHcWKQ" name="transactionRecords" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_OACAw_2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OAWw4P2vEeaSu7cCpHcWKQ" name="calSynthesizeTrust" visibility="public">
+      <ownedComment xmi:id="_OAiXEP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x7efc;&#x5408;&#x4fe1;&#x4efb; 
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OAWw4f2vEeaSu7cCpHcWKQ" name="tpno">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OAWw4v2vEeaSu7cCpHcWKQ" name="recommandList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_OAWw4_2vEeaSu7cCpHcWKQ" name="cur_cycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OAWw5P2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OAjlMP2vEeaSu7cCpHcWKQ" name="selectTargetPeerNoList" visibility="public">
+      <ownedParameter xmi:id="_OAjlMf2vEeaSu7cCpHcWKQ" name="numberOfTarget">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OAjlMv2vEeaSu7cCpHcWKQ" name="maxPeerNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OAjlM_2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OArhAP2vEeaSu7cCpHcWKQ" name="randSelect" visibility="public">
+      <ownedParameter xmi:id="_OArhAf2vEeaSu7cCpHcWKQ" name="trustValueArrayList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_OArhAv2vEeaSu7cCpHcWKQ" name="trustTotal">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OArhA_2vEeaSu7cCpHcWKQ" name="numberOfTarget">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OArhBP2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OA0D4f2vEeaSu7cCpHcWKQ" name="MyTrustModel" visibility="public">
+      <ownedParameter xmi:id="_OA0D4v2vEeaSu7cCpHcWKQ" name="numberOfTarget">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OA0D4_2vEeaSu7cCpHcWKQ" name="maxPeerNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OA0q8P2vEeaSu7cCpHcWKQ" name="recommandNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OA0q8f2vEeaSu7cCpHcWKQ" name="curCycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OA0q8v2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBARIP2vEeaSu7cCpHcWKQ" name="update" visibility="public">
+      <ownedComment xmi:id="_OBG-0P2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x4fe1;&#x4efb;&#x66f4;&#x65b0; 
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OBARIf2vEeaSu7cCpHcWKQ" name="tranactedPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBARIv2vEeaSu7cCpHcWKQ" name="cyclnum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBARI_2vEeaSu7cCpHcWKQ" name="nameList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBI0AP2vEeaSu7cCpHcWKQ" name="updatalocalHistoryValue" visibility="package">
+      <ownedParameter xmi:id="_OBI0Af2vEeaSu7cCpHcWKQ" name="tranactedPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBI0Av2vEeaSu7cCpHcWKQ" name="realValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBI0A_2vEeaSu7cCpHcWKQ" name="cyclenum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBQv0P2vEeaSu7cCpHcWKQ" name="recommandToOthers" visibility="package">
+      <ownedParameter xmi:id="_OBQv0f2vEeaSu7cCpHcWKQ" name="tranactedPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBQv0v2vEeaSu7cCpHcWKQ" name="nameList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_OBQv0_2vEeaSu7cCpHcWKQ" name="cyclnum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBQv1P2vEeaSu7cCpHcWKQ" name="realValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBgncP2vEeaSu7cCpHcWKQ" name="updataPeerReliability" visibility="package">
+      <ownedParameter xmi:id="_OBhOgP2vEeaSu7cCpHcWKQ" name="factor_tolerate">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBhOgf2vEeaSu7cCpHcWKQ" name="nameList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+      <ownedParameter xmi:id="_OBhOgv2vEeaSu7cCpHcWKQ" name="realValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBrmkP2vEeaSu7cCpHcWKQ" name="getOnePeerTrustReliability" visibility="public">
+      <ownedParameter xmi:id="_OBrmkf2vEeaSu7cCpHcWKQ" name="indexRecommandNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBrmkv2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OBziYP2vEeaSu7cCpHcWKQ" name="isNeigbour" visibility="public">
+      <ownedComment xmi:id="_OB5pAP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * &#x529f;&#x80fd; 
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OBziYf2vEeaSu7cCpHcWKQ" name="peerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OBziYv2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OB63IP2vEeaSu7cCpHcWKQ" name="addNeighbour" visibility="public">
+      <ownedParameter xmi:id="_OB63If2vEeaSu7cCpHcWKQ" name="neighbourPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OCCy8P2vEeaSu7cCpHcWKQ" name="addToPeerLocalHistoryList" visibility="package">
+      <ownedParameter xmi:id="_OCCy8f2vEeaSu7cCpHcWKQ" name="targetPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OCCy8v2vEeaSu7cCpHcWKQ" name="trueValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OCCy8_2vEeaSu7cCpHcWKQ" name="cycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OCJgoP2vEeaSu7cCpHcWKQ" name="getPeerNo" visibility="public">
+      <ownedParameter xmi:id="_OCJgof2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OCQOUP2vEeaSu7cCpHcWKQ" name="setPeerNo" visibility="public">
+      <ownedParameter xmi:id="_OCQOUf2vEeaSu7cCpHcWKQ" name="peerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OCXjEP2vEeaSu7cCpHcWKQ" name="getPeerType" visibility="public">
+      <ownedParameter xmi:id="_OCYKIP2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OCyZ0P2vEeaSu7cCpHcWKQ" name="setPeerType" visibility="public">
+      <ownedParameter xmi:id="_OCyZ0f2vEeaSu7cCpHcWKQ" name="peerType">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ODFUwP2vEeaSu7cCpHcWKQ" name="getTrueValue" visibility="public">
+      <ownedParameter xmi:id="_ODFUwf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ODRiAP2vEeaSu7cCpHcWKQ" name="setTrueValue" visibility="public">
+      <ownedParameter xmi:id="_ODRiAf2vEeaSu7cCpHcWKQ" name="trueValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ODar8P2vEeaSu7cCpHcWKQ" name="getPeerNeighbours" visibility="public">
+      <ownedParameter xmi:id="_ODar8f2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ODj14P2vEeaSu7cCpHcWKQ" name="setPeerNeighbours" visibility="public">
+      <ownedParameter xmi:id="_ODj14f2vEeaSu7cCpHcWKQ" name="peerNeighbours" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OD_6wP2vEeaSu7cCpHcWKQ" name="getPeerLocalHistoryRecords" visibility="public">
+      <ownedComment xmi:id="_OEH2kP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @return the peerLocalHistoryRecords
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OD_6wf2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OEJEsP2vEeaSu7cCpHcWKQ" name="setPeerLocalHistoryRecords" visibility="public">
+      <ownedComment xmi:id="_OEPyYP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @param peerLocalHistoryRecords the peerLocalHistoryRecords to set
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OEJEsf2vEeaSu7cCpHcWKQ" name="peerLocalHistoryRecords" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OEQZcP2vEeaSu7cCpHcWKQ" name="getPeerRecommendRecords" visibility="public">
+      <ownedComment xmi:id="_OEWgEP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @return the peerRecommendRecords
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OEQZcf2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OEYVQP2vEeaSu7cCpHcWKQ" name="setPeerRecommendRecords" visibility="public">
+      <ownedComment xmi:id="_OEuTgP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @param peerRecommendRecords the peerRecommendRecords to set
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OEYVQf2vEeaSu7cCpHcWKQ" name="peerRecommendRecords" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OEvhoP2vEeaSu7cCpHcWKQ" name="getPeerTrustReliabilities" visibility="public">
+      <ownedComment xmi:id="_OE1oQP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @return the peerTrustReliabilities
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OEvhof2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OE22YP2vEeaSu7cCpHcWKQ" name="setPeerTrustReliabilities" visibility="public">
+      <ownedComment xmi:id="_OE8V8P2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @param peerTrustReliabilities the peerTrustReliabilities to set
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OE22Yf2vEeaSu7cCpHcWKQ" name="peerTrustReliabilities" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OE9kEP2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_OE9kEf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Njl8YP2vEeaSu7cCpHcWKQ" name="testFunction1">
+    <ownedOperation xmi:id="_OFGuAP2vEeaSu7cCpHcWKQ" name="main" visibility="public" isStatic="true">
+      <ownedComment xmi:id="_OFHVEP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @param args
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OFGuAf2vEeaSu7cCpHcWKQ" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OFGuAv2vEeaSu7cCpHcWKQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OFGuA_2vEeaSu7cCpHcWKQ"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjoYoP2vEeaSu7cCpHcWKQ" name="LocalHistoryRecord">
+    <ownedAttribute xmi:id="_OFIjMP2vEeaSu7cCpHcWKQ" name="serverPeerNo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OFK_cP2vEeaSu7cCpHcWKQ" name="feedbackArrayList" visibility="private" type="_OFJxUP2vEeaSu7cCpHcWKQ"/>
+    <ownedOperation xmi:id="_OFMNkP2vEeaSu7cCpHcWKQ" name="addHistoryRecord" visibility="public">
+      <ownedParameter xmi:id="_OFMNkf2vEeaSu7cCpHcWKQ" name="newHistoryRecord" type="_NjqN0P2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFNbsP2vEeaSu7cCpHcWKQ" name="lastHistoryRecord" visibility="public">
+      <ownedParameter xmi:id="_OFNbsf2vEeaSu7cCpHcWKQ" name="return" type="_NjqN0P2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFOCwP2vEeaSu7cCpHcWKQ" name="CalLocalHistoryTrustValue" visibility="public">
+      <ownedParameter xmi:id="_OFOCwf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFPQ4P2vEeaSu7cCpHcWKQ" name="getServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_OFPQ4f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFQfAP2vEeaSu7cCpHcWKQ" name="setServerPeerNo" visibility="public">
+      <ownedParameter xmi:id="_OFQfAf2vEeaSu7cCpHcWKQ" name="serverPeerNo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFRtIP2vEeaSu7cCpHcWKQ" name="getFeedbackArrayList" visibility="public">
+      <ownedParameter xmi:id="_OFRtIf2vEeaSu7cCpHcWKQ" name="return" type="_Nm5IAP2vEeaSu7cCpHcWKQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFTiUP2vEeaSu7cCpHcWKQ" name="setFeedbackArrayList" visibility="public">
+      <ownedParameter xmi:id="_OFTiUf2vEeaSu7cCpHcWKQ" name="feedbackArrayList" type="_Nm5IAP2vEeaSu7cCpHcWKQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFUwcP2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_OFUwcf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjqN0P2vEeaSu7cCpHcWKQ" name="HistoryRecord">
+    <ownedAttribute xmi:id="_OFXMsP2vEeaSu7cCpHcWKQ" name="trustValue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OFYa0P2vEeaSu7cCpHcWKQ" name="cycleNum" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OFZB4P2vEeaSu7cCpHcWKQ" name="getTrustValue" visibility="public">
+      <ownedParameter xmi:id="_OFZB4f2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFaQAP2vEeaSu7cCpHcWKQ" name="setTrustValue" visibility="public">
+      <ownedParameter xmi:id="_OFaQAf2vEeaSu7cCpHcWKQ" name="trustValue">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFbeIP2vEeaSu7cCpHcWKQ" name="getCycleNum" visibility="public">
+      <ownedParameter xmi:id="_OFbeIf2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFd6YP2vEeaSu7cCpHcWKQ" name="setCycleNum" visibility="public">
+      <ownedParameter xmi:id="_OFd6Yf2vEeaSu7cCpHcWKQ" name="cycleNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFfIgP2vEeaSu7cCpHcWKQ" name="toString" visibility="public">
+      <ownedParameter xmi:id="_OFfvkP2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NjyJoP2vEeaSu7cCpHcWKQ" name="TestMain">
+    <ownedOperation xmi:id="_OFiL0P2vEeaSu7cCpHcWKQ" name="log" visibility="public" isStatic="true">
+      <ownedComment xmi:id="_OFqHoP2vEeaSu7cCpHcWKQ">
+        <body>/** 
+ * @param args
+ */
+</body>
+      </ownedComment>
+      <ownedParameter xmi:id="_OFiL0f2vEeaSu7cCpHcWKQ" name="value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OFiL0v2vEeaSu7cCpHcWKQ" name="base">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_OFiL0_2vEeaSu7cCpHcWKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OFqusP2vEeaSu7cCpHcWKQ" name="main" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_OFqusf2vEeaSu7cCpHcWKQ" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OFqusv2vEeaSu7cCpHcWKQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OFqus_2vEeaSu7cCpHcWKQ"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NmYxsP2vEeaSu7cCpHcWKQ" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_NmYxsf2vEeaSu7cCpHcWKQ" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Nm5IAP2vEeaSu7cCpHcWKQ" name="ArrayList"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Nm6WIP2vEeaSu7cCpHcWKQ" name="Random"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Nm69MP2vEeaSu7cCpHcWKQ" name="logging">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Nm69Mf2vEeaSu7cCpHcWKQ" name="Logger"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Nww1sP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;RecommendInfo>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N3-4AP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;Peer>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N8PF4P2vEeaSu7cCpHcWKQ" name="ArrayList&lt;Integer>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N8ngYP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;LocalHistoryRecord>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N850QP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;RecommendRecord>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N97H8P2vEeaSu7cCpHcWKQ" name="ArrayList&lt;PeerTrustReliability>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_N-QfIP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;ArrayList&lt;TransactionRecord>>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_OFJxUP2vEeaSu7cCpHcWKQ" name="ArrayList&lt;HistoryRecord>"/>
+</uml:Model>
